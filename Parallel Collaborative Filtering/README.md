@@ -1,5 +1,11 @@
-To compile this file -> mpic++ ParallelMovieRecommendation.cpp -fopenmp\
-To run this program -> mpirun -host localhost -np 8 ./a.out -n 5 -p 3245
+To compile this file -> 
+```bash
+mpic++ ParallelMovieRecommendation.cpp -fopenmp\
+```
+To run this program -> 
+```bash
+mpirun -host localhost -np 8 ./a.out -n 5 -p 3245
+```
 
 Run time options\
    -np nproc : Number of parallel processors\
@@ -21,7 +27,7 @@ Collaborative Filtering\
 
 Notes on MPI\
    More the number of processors, more is the performance speed up\
-    All processors are used equally to compute the Movie Similarityy Matrix (compute allocated using % mod)\
+    All processors are used equally to compute the Movie Similarity Matrix (compute allocated using % mod)\
     And MPI_ALLReduce enables collection of output from all the processors
 
 Debug flag -> if 1, prints intermediate data to validate progress\
