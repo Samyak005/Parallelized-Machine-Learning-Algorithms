@@ -14,7 +14,7 @@ Run time options\
     -n top_num : number of recommendations that should be shown for a user (default 5)\
     -p user   : user id for which the recommendations of movies should be shown (default value 3245)
 
-Data of this program is the MovieLens 1M dataset from http://grouplens.org/datasets/movielens/\
+Data of this program is the MovieLens 1M dataset from http://grouplens.org/datasets/movielens/  
     movies.dat stores the Movie Id, Movie Name, Tags, for example, 9::Sudden Death (1995)::Action\
     ratings.dat stores the Userid, Movie Id, Rating, Time, for example, 3123::2688::3::969323556
 
